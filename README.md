@@ -12,4 +12,5 @@ Then the program asks to chose an action:
 
 The program outputs the answer and stores it to results.txt file.
 It will continously ask to chose an action until we chose: 
+
 5. finish
