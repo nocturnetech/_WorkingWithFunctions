@@ -5,11 +5,11 @@ of the array. Random numbers are stored into the array and are displayed on
 the console.
 
 Then the program asks to chose an action:
-	1. addition
-	2. multiplication
-	3. average
-	4. square root
+1. addition
+2. multiplication
+3. average
+4. square root
 
 The program outputs the aswer and stores it to results.txt file.
 It will continously ask to chose an action until we chose: 
-	5. finish
+5. finish
