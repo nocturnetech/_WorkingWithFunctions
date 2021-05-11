@@ -9,6 +9,12 @@ using namespace std;
 void elements (int& input, double& input2){
     cout<<"Please enter the number of elements:"<<endl;
     cin>>input;
+while(cin.fail()){
+    cout<<"***Please enter a number***."<<endl;
+     cin.clear();
+     cin.ignore();
+     cin>>input;
+}
     input2=input;
 }
 void menu (int &num){
@@ -19,6 +25,13 @@ void menu (int &num){
     cout << "4 - square root" <<endl;
     cout << "5 - finish"<<endl;
     cin>>num;
+
+    while(cin.fail()){
+    cout<<"***Please enter a number***."<<endl;
+     cin.clear();
+     cin.ignore();
+     cin>>num;
+}
 }
 
 int random (int *arr, double& input){
@@ -120,4 +133,3 @@ else{
 cout<<"Program has been successfully finished"<<endl;
 }
 }
-
